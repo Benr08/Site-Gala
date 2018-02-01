@@ -1,0 +1,19 @@
+//////////////////////////////////////////////////////
+/////////////INSTRUCTIONS D'INSTALLATION//////////////
+//////////////////////////////////////////////////////
+
+
+L'installation d'un site Wordpress est relativement simple.
+
+1. Télécharger les fichiers du site depuis Github
+2. Les déplacer à la racine du serveur Web
+3. Créer une BDD Mysql sur la VM nommée "web"
+4. Importer dans la BDD le dossier nommé web.sql.gz qui se trouve dans le dossier INFORMATIONS
+5. Remplacer dans le fichier: wp-config.php les lignes: 26 - 29 et accessoirement 32 si la bdd n'est pas à la même ip que le site l'information "A CHANGER" par le nom d'utilisateur de la bdd et le mot de passe de celui-ci.
+6. Se rendre dans la BDD et modifier dans la table wp-options siteurl et home par l'ip de la VM.
+7. Le site devrait être disponible.
+
+
+Pour plus d'informations, merci de me prévenir à: benjamin.reichmann08@gmail.com.
+
+
